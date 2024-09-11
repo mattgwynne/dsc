@@ -12,8 +12,9 @@ register_block_style(
 );
 
 
-// Loads extra.css in the front end
+// Loads style.css and extra.css in the front end
 function mytheme_extra_style() {
+	    wp_enqueue_style('mytheme_main_style', get_stylesheet_uri()); 
      wp_enqueue_style('mytheme_extra_style', get_theme_file_uri('assets/css/extra.css'));
 }
 add_action( 'wp_enqueue_scripts', 'mytheme_extra_style' );
@@ -21,6 +22,7 @@ add_action( 'wp_enqueue_scripts', 'mytheme_extra_style' );
 
 // Loads style.css in the editor
 function dsc_add_editor_style(){
+	add_editor_style('assets/css/style.css');
 	add_editor_style('assets/css/extra.css');
    }
 add_action('after_setup_theme','dsc_add_editor_style');

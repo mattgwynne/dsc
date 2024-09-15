@@ -7,7 +7,7 @@ register_block_style(
 	array(
 		'name'         => 'arrow-button',
 		'label'        => __( 'Arrow Button', 'jksn' ),
-		'inline_style' => '.wp-block-button.is-style-arrow-button .wp-block-button__link::after {content: url(https://dsctheme-com.stackstaging.com/wp-content/uploads/2024/09/icon-circle-right.svg); vertical-align: top; margin-left: 1.75rem; display: inline-block; margin-top: 0.1rem; margin-right:-0.5rem; }' 
+		'inline_style' => '.wp-block-button.is-style-arrow-button .wp-block-button__link::after {content: url(./wp-content/uploads/2024/09/icon-circle-right.svg); vertical-align: top; margin-left: 1.75rem; display: inline-block; margin-top: 0.1rem; margin-right:-0.5rem; }' 
 	)
 );
 
@@ -26,4 +26,3 @@ function dsc_add_editor_style(){
 	add_editor_style('assets/css/extra.css');
    }
 add_action('after_setup_theme','dsc_add_editor_style');
-

@@ -394,7 +394,7 @@
 					],
 					"fontFamily": "Inter, sans-serif",
 					"name": "Inter",
-					"slug": "headline"
+					"slug": "inter"
 				},
 				{
 					"fontFace": [
@@ -434,6 +434,22 @@
 					"fontFamily": "Roboto Mono",
 					"name": "Roboto Mono",
 					"slug": "mono"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Manrope",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 500 700",
+							"src": [
+								"file:./assets/fonts/Manrope/Manrope-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "Manrope",
+					"name": "Manrope",
+					"slug": "manrope"
 				}
 			],
 			"fontSizes": [
@@ -488,7 +504,7 @@
 				{
 					"fluid": {
 						"max": "3rem",
-						"min": "1.75rem"
+						"min": "2rem"
 					},
 					"name": "3xl",
 					"size": "3rem",
@@ -497,7 +513,7 @@
 				{
 					"fluid": {
 						"max": "3.75rem",
-						"min": "2.25rem"
+						"min": "2.5rem"
 					},
 					"name": "4xl",
 					"size": "3.75rem",
@@ -571,21 +587,6 @@
 			"core/navigation": {
 				"elements": {
 					"link": {
-						":active": {
-							"border": {
-								"bottom": {
-									"color": "transparent",
-									"style": "solid",
-									"width": "0px"
-								}
-							},
-							"color": {
-								"text": "var(--wp--preset--color--theme-5) !important"
-							},
-							"typography": {
-								"textDecoration": "none"
-							}
-						},
 						":hover": {
 							"border": {
 								"bottom": {
@@ -716,7 +717,7 @@
 			},
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--headline)",
+					"fontFamily": "var(--wp--preset--font-family--manrope)",
 					"fontWeight": "500",
 					"lineHeight": "clamp(120%, 2.75rem + 0.17vw, 130%)"
 				}

@@ -30,58 +30,43 @@
 			"gradients": [
 				{
 					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--primary-700) -50%, transparent 50%)",
-					"name": "Primary to Transparent",
-					"slug": "gradient-primary-transparent"
+					"name": "Gradient 1",
+					"slug": "gradient-1"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--primary-700) 0%, var(--wp--preset--color--primary-200) 100%)",
-					"name": "Gradient 1",
-					"slug": "gradient-primary-700-200"
+					"name": "Gradient 2",
+					"slug": "gradient-2"
 				},
 				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--primary-700) 0%, var(--wp--preset--color--tertiary-700) 100%)",
-					"name": "Primary to Tertiary",
-					"slug": "gradient-primary-tertiary"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-1) 0%, var(--wp--preset--color--theme-4) 100%)",
+					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--primary-500) 0%, var(--wp--preset--color--secondary-500) 100%)",
 					"name": "Gradient 3",
-					"slug": "gradient-1-4"
+					"slug": "gradient-3"
 				},
 				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-1) 0%, var(--wp--preset--color--theme-5) 100%)",
+					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--primary-300) 0%, var(--wp--preset--color--secondary-100) 100%)",
 					"name": "Gradient 4",
-					"slug": "gradient-1-5"
+					"slug": "gradient-4"
 				},
 				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-2) 0%, var(--wp--preset--color--theme-3) 100%)",
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary-700) 0%, var(--wp--preset--color--black) 100%)",
 					"name": "Gradient 5",
-					"slug": "gradient-2-3"
+					"slug": "gradient-5"
 				},
 				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-2) 0%, var(--wp--preset--color--theme-4) 100%)",
+					"gradient": "linear-gradient(44deg, var(--wp--preset--color--black) 40%, var(--wp--preset--color--primary-500) 100%)",
 					"name": "Gradient 6",
-					"slug": "gradient-2-4"
+					"slug": "gradient-6"
 				},
 				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-2) 0%, var(--wp--preset--color--theme-5) 100%)",
+					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--secondary-100) 0%, transparent 100%)",
 					"name": "Gradient 7",
-					"slug": "gradient-2-5"
+					"slug": "gradient-7"
 				},
 				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-3) 0%, var(--wp--preset--color--theme-4) 100%)",
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary-200) 0%, var(--wp--preset--color--primary-50) 100%)",
 					"name": "Gradient 8",
-					"slug": "gradient-3-4"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-3) 0%, var(--wp--preset--color--theme-5) 100%)",
-					"name": "Gradient 9",
-					"slug": "gradient-3-5"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-4) 0%, var(--wp--preset--color--theme-5) 100%)",
-					"name": "Gradient 10",
-					"slug": "gradient-4-5"
+					"slug": "gradient-8"
 				}
 			],
 			"palette": [
@@ -265,7 +250,7 @@
 		},
 		"layout": {
 			"contentSize": "840px",
-			"wideSize": "1200px"
+			"wideSize": "1366px"
 		},
 		"shadow": {
 			"defaultPresets": false,
@@ -332,32 +317,32 @@
 				},
 				{
 					"name": "2",
-					"size": "1.25rem",
+					"size": "clamp(1.5rem, 0.765vw + 1.347rem, 2rem)",
 					"slug": "20"
 				},
 				{
 					"name": "3",
-					"size": "min(1.875rem, 5vw)",
+					"size": "clamp(2rem, 1.53vw + 1.694rem, 3rem)",
 					"slug": "30"
 				},
 				{
 					"name": "4",
-					"size": "min(2rem, 6vw)",
+					"size": "clamp(3rem, 4.589vw + 2.082rem, 6rem)",
 					"slug": "40"
 				},
 				{
 					"name": "5",
-					"size": "min(3.125rem, 6vw)",
+					"size": "clamp(5rem, 7.648vw + 3.47rem, 10rem)",
 					"slug": "50"
 				},
 				{
 					"name": "6",
-					"size": "min(3.75rem, 7vw)",
+					"size": "clamp(7rem, 7.648vw + 5.47rem, 12rem)",
 					"slug": "60"
 				},
 				{
 					"name": "7",
-					"size": "min(4.375rem, 8vw)",
+					"size": "clamp(10rem, 12.237vw + 7.553rem, 18rem)",
 					"slug": "70"
 				}
 			],
@@ -367,7 +352,8 @@
 				"rem",
 				"vh",
 				"vw",
-				"%"
+				"%",
+				"ch"
 			]
 		},
 		"typography": {
@@ -544,10 +530,10 @@
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "0.5rem",
-								"left": "1rem",
-								"right": "1rem",
-								"top": "0.5rem"
+								"bottom": "0.5em",
+								"left": "1em",
+								"right": "1em",
+								"top": "0.5em"
 							}
 						}
 					}
@@ -555,9 +541,9 @@
 			},
 			"core/buttons": {
 				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--30)",
+					"blockGap": "var(--wp--preset--spacing--20)",
 					"margin": {
-						"top": "var(--wp--preset--spacing--50)"
+						"top": "var(--wp--preset--spacing--20)"
 					}
 				}
 			},
@@ -616,11 +602,6 @@
 				}
 			},
 			"core/paragraph": {
-				"spacing": {
-					"margin": {
-						"top": "var(--wp--preset--spacing--20)"
-					}
-				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--s)",
 					"letterSpacing": "0.002em",
@@ -724,11 +705,11 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "var(--wp--preset--spacing--30)",
+			"blockGap": "var(--wp--preset--spacing--20)",
 			"padding": {
 				"bottom": "0",
-				"left": "var(--wp--preset--spacing--30)",
-				"right": "var(--wp--preset--spacing--30)",
+				"left": "var(--wp--preset--spacing--20)",
+				"right": "var(--wp--preset--spacing--20)",
 				"top": "0"
 			}
 		},

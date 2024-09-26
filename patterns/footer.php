@@ -2,7 +2,6 @@
 /**
  * Title: footer
  * Slug: dsc/footer
- * Categories: hidden
  * Inserter: no
  */
 ?>

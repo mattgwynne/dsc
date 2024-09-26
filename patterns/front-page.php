@@ -2,20 +2,19 @@
 /**
  * Title: front-page
  * Slug: dsc/front-page
- * Categories: hidden
  * Inserter: no
  */
 ?>
-<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:template-part {"slug":"header","area":"header","align":"full"} /--></div>
+<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:template-part {"slug":"header","area":"header"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:cover {"useFeaturedImage":true,"dimRatio":90,"overlayColor":"primary-100","isUserOverlayColor":true,"minHeight":500,"contentPosition":"center center","isDark":false,"style":{"spacing":{"padding":{"bottom":"100px","top":"150px"},"margin":{"top":"-100px"}}},"layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-cover is-light" style="margin-top:-100px;padding-top:150px;padding-bottom:100px;min-height:500px"><span aria-hidden="true" class="wp-block-cover__background has-primary-100-background-color has-background-dim-90 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:columns {"verticalAlignment":null,"align":"wide","style":{"spacing":{"margin":{"top":"25px"},"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-cover is-light" style="margin-top:-100px;padding-top:150px;padding-bottom:100px;min-height:500px"><span aria-hidden="true" class="wp-block-cover__background has-primary-100-background-color has-background-dim-90 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"25px"},"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide" style="margin-top:25px"><!-- wp:column {"verticalAlignment":"center","width":"60%","style":{"spacing":{"padding":{"top":"50px"}}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="padding-top:50px;flex-basis:60%"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"page_title","tagName":"h1"} /-->
 
-<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left","contentSize":"800px"}} -->
+<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left","contentSize":"50ch"}} -->
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldName":"page_intro","hideEmpty":true,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"medium"} /--></div>
 <!-- /wp:group -->
 

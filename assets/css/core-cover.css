@@ -1,0 +1,100 @@
+/* Cover styles
+--------------------------------------------- */
+
+.is-style-blur-image-less,
+.is-style-blur-image-more {
+	overflow: hidden;
+}
+
+.is-style-blur-image-less > .wp-block-cover__image-background,
+.is-style-blur-image-more > .wp-block-cover__image-background {
+	transform: scale(1.5);
+}
+
+.is-style-blur-image-less > .wp-block-cover__image-background {
+	filter: blur(25px);
+}
+
+.is-style-blur-image-more > .wp-block-cover__image-background {
+	filter: blur(75px);
+}
+
+.is-style-rounded-cover img {
+	border-radius: 5px;
+}
+
+@media (max-width: 781px) {
+	.wp-block-cover:not(.has-aspect-ratio) {
+		min-height: 430px !important;
+	}
+}
+
+/* Hover styles
+--------------------------------------------- */
+
+.is-style-cover-hover {
+	position: relative;
+}
+.is-style-cover-hover img {
+	transition: all 300ms ease;
+	opacity: 1;
+}
+.is-style-cover-hover:focus-within img,
+.is-style-cover-hover:hover img {
+	transform: scale(1.2);
+	opacity: 0;
+}	
+.is-style-cover-hover a::after {
+content:" ";
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.is-style-reverse-cover-hover {
+	position: relative;
+}
+.is-style-reverse-cover-hover img {
+	transition: all 300ms ease;
+	opacity: 0;
+}
+.is-style-reverse-cover-hover:focus-within img,
+.is-style-reverse-cover-hover:hover img {
+	transform: scale(1.2);
+	opacity: 1;
+}	
+.is-style-reverse-cover-hover a::after {
+content:" ";
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.is-style-cover-hover-blur {
+	position: relative;
+}
+.is-style-cover-hover-blur img {
+	transition: all 300ms ease;
+	opacity: 1;
+}
+.is-style-cover-hover-blur:focus-within img,
+.is-style-cover-hover-blur:hover img {
+	transform: scale(1.2);
+	opacity: 1;
+	filter: blur(15px);
+}	
+.is-style-cover-hover-blur a::after {
+content:" ";
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}

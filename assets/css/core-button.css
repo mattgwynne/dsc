@@ -1,0 +1,44 @@
+/* Button - Outline Style
+--------------------------------------------- */
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	border: none;
+	background-color: transparent;
+	color: var(--wp--preset--color--secondary-500);
+	outline: 2px solid var(--wp--preset--color--secondary-500);
+	outline-offset: -2px;
+	padding: .5em 1em;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+	color: var(--wp--preset--color--secondary-700) !important;
+	outline-color: var(--wp--preset--color--seocndary-700);
+}
+
+
+/* Arrow Button
+--------------------------------------------- */
+.wp-block-button.is-style-arrow-button .wp-block-button__link::after {
+	content: url(icon-circle-right.svg); 
+	vertical-align: top; 
+	margin-left: 1.75rem; 
+	display: inline-block; 
+	margin-top: 0.1rem; 
+	margin-right:-0.5rem; 
+}
+
+/* Minimal Button
+--------------------------------------------- */
+
+.wp-block-button.is-style-minimal {
+	.wp-block-button__link {
+		background-color: var(--wp--preset--color--primary-100);
+		color: var(--wp--preset--color--primary-700);
+	}
+}
+
+.wp-block-button.is-style-minimal .wp-block-button__link:hover {
+		background: var(--wp--preset--color--primary-200);
+		color: var(--wp--preset--color--primary-700) !important;
+}
+

@@ -9,11 +9,11 @@ add_action( 'wp_enqueue_scripts', 'mytheme_extra_style' );
 
 
 // Loads style.css in the editor
-function dsc_add_editor_style(){
+function dsc_dev_add_editor_style(){
 	add_editor_style('/style.css');
 	add_editor_style('/assets/css/extra.css');
    }
-add_action('after_setup_theme','dsc_add_editor_style');
+add_action('after_setup_theme','dsc_dev_add_editor_style');
 
 
 /**
@@ -27,29 +27,29 @@ function register_block_styles() {
 			'minimal'     => __( 'Minimal', ),
 		),
 		'core/list'                      => array(
-			'list-check'        => __( 'Check', 'dsc' ),
-			'list-check-circle' => __( 'Check Circle', 'dsc' ),
-			'list-boxed'        => __( 'Boxed', 'dsc' ),
+			'list-check'        => __( 'Check', 'dsc-dev' ),
+			'list-check-circle' => __( 'Check Circle', 'dsc-dev' ),
+			'list-boxed'        => __( 'Boxed', 'dsc-dev' ),
 		),
 		'core/code'                      => array(
-			'dark-code' => __( 'Dark', 'dsc' ),
+			'dark-code' => __( 'Dark', 'dsc-dev' ),
 		),
 		'core/cover'                     => array(
-			'blur-image-less' => __( 'Blur Image Less', 'dsc' ),
-			'blur-image-more' => __( 'Blur Image More', 'dsc' ),
-			'cover-hover'   => __( 'Hover Cover', 'dsc' ),
-			'reverse-cover-hover'   => __( 'Reverse Cover Hover', 'dsc' ),
-			'cover-hover-blur'   => __( 'Cover Hover Blur', 'dsc' ),
+			'blur-image-less' => __( 'Blur Image Less', 'dsc-dev' ),
+			'blur-image-more' => __( 'Blur Image More', 'dsc-dev' ),
+			'cover-hover'   => __( 'Hover Cover', 'dsc-dev' ),
+			'reverse-cover-hover'   => __( 'Reverse Cover Hover', 'dsc-dev' ),
+			'cover-hover-blur'   => __( 'Cover Hover Blur', 'dsc-dev' ),
 
 		),
 		'core/post-excerpt'              => array(
-			'excerpt-truncate-2' => __( 'Truncate 2 Lines', 'dsc' ),
-			'excerpt-truncate-3' => __( 'Truncate 3 Lines', 'dsc' ),
-			'excerpt-truncate-4' => __( 'Truncate 4 Lines', 'dsc' ),
+			'excerpt-truncate-2' => __( 'Truncate 2 Lines', 'dsc-dev' ),
+			'excerpt-truncate-3' => __( 'Truncate 3 Lines', 'dsc-dev' ),
+			'excerpt-truncate-4' => __( 'Truncate 4 Lines', 'dsc-dev' ),
 		),
 		'core/separator'                 => array(
-			'separator-dotted' => __( 'Dotted', 'dsc' ),
-			'separator-thin'   => __( 'Thin', 'dsc' ),
+			'separator-dotted' => __( 'Dotted', 'dsc-dev' ),
+			'separator-thin'   => __( 'Thin', 'dsc-dev' ),
 		),
 		'core/post-terms'                => array(
 			'term-button' => __( 'Button Style', 'ollie' ),
@@ -89,7 +89,7 @@ function enqueue_custom_block_styles() {
 		wp_enqueue_block_style(
 			$block_name,
 			array(
-				'handle' => "dsc-block-{$filename}",
+				'handle' => "dsc-dev-block-{$filename}",
 				'src'    => get_theme_file_uri( "assets/css/{$filename}.css" ),
 				'path'   => get_theme_file_path( "assets/css/{$filename}.css" ),
 			)

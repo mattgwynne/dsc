@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: default-footer
- * Slug: dsc/default-footer
+ * Slug: dsc-dev/default-footer
  * Categories: hidden
  * Inserter: no
  */

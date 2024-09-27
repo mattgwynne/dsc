@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: footer
- * Slug: dsc/footer
+ * Slug: dsc-dev/footer
  * Inserter: no
  */
 ?>
@@ -9,7 +9,7 @@
 <div class="wp-block-group has-contrast-color has-text-color has-link-color" style="margin-top:0px;margin-bottom:0px;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"25px"},"blockGap":{"top":"50px","left":"50px"}},"border":{"top":{"color":"var:preset|color|primary-700","width":"2px"},"right":[],"bottom":[],"left":[]}}} -->
 <div class="wp-block-columns alignwide" style="border-top-color:var(--wp--preset--color--primary-700);border-top-width:2px;padding-top:25px"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"width":"200px","sizeSlug":"full","linkDestination":"none","align":"left"} -->
-<figure class="wp-block-image alignleft size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/DSC-Theme-logo-1.png" alt="" class="" style="width:200px"/></figure>
+<figure class="wp-block-image alignleft size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/DSC Dev-Theme-logo-1.png" alt="" class="" style="width:200px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -66,7 +66,7 @@
 
 <!-- wp:group {"align":"wide","layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><a href="/privacy-policy">Privacy Policy</a> · <a href="/cookie-policy-uk/">Cookie Policy</a> · <a href="https://dsctheme-com.stackstaging.com/contact/" data-type="page" data-id="230">Contact Us</a> · <a href="https://dsctheme-com.stackstaging.com/complaints-procedure/" data-type="page" data-id="1193">Complaints procedure</a> <br>Website last updated: July 2024</p>
+<p class="has-small-font-size"><a href="/privacy-policy">Privacy Policy</a> · <a href="/cookie-policy-uk/">Cookie Policy</a> · <a href="https://dsc-devtheme-com.stackstaging.com/contact/" data-type="page" data-id="230">Contact Us</a> · <a href="https://dsc-devtheme-com.stackstaging.com/complaints-procedure/" data-type="page" data-id="1193">Complaints procedure</a> <br>Website last updated: July 2024</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#352f36","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","className":"is-style-default","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->

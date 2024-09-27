@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: wp-custom-template-profile
- * Slug: dsc/wp-custom-template-profile
+ * Slug: dsc-dev/wp-custom-template-profile
  * Categories: hidden
  * Inserter: no
  */
@@ -34,7 +34,7 @@
 
 <!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"},"blockGap":"25px"}}} -->
 <div class="wp-block-column" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;flex-basis:33.33%"><!-- wp:paragraph -->
-<p><a href="https://dsctheme-com.stackstaging.com/about/#team">Back to all team &gt;</a></p>
+<p><a href="https://dsc-devtheme-com.stackstaging.com/about/#team">Back to all team &gt;</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

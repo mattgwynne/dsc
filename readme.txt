@@ -1,7 +1,7 @@
-== DSC Dev ==
+== DSC ==
 
 Contributors: The Dental Site Co.
-Requires at least: 6.6
+Requires at least: 6.0
 Tested up to: 6.6
 Requires PHP: 5.7
 License: GPLv2 or later
@@ -16,8 +16,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Copyright ==
 
-DSC Dev WordPress Theme, (C) 2024 The Dental Site Co.
-DSC Dev is distributed under the terms of the GNU GPL.
+DSC WordPress Theme, (C) 2024 The Dental Site Co.
+DSC is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -30,5 +30,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 
-DSC Dev is based on DSC (), (C) The Dental Site Co., [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
+DSC is based on GCG (), (C) Phase One Websites, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 

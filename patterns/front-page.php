@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: front-page
- * Slug: dsc-dev/front-page
+ * Slug: dsc/front-page
  * Inserter: no
  */
 ?>
@@ -20,7 +20,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-arrow-button"} -->
-<div class="wp-block-button is-style-arrow-button"><a class="wp-block-button__link wp-element-button" href="https://dsc-devtheme-com.stackstaging.com/contact/">Book an appointment </a></div>
+<div class="wp-block-button is-style-arrow-button"><a class="wp-block-button__link wp-element-button" href="https://dsctheme-com.stackstaging.com/contact/">Book an appointment </a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

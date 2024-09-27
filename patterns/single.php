@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: single
- * Slug: dsc-dev/single
+ * Slug: dsc/single
  * Categories: hidden
  * Inserter: no
  */

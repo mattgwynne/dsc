@@ -6,15 +6,15 @@ box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.30);
 }
 
 @media (max-width: 768px) {
-	.dsc-dev-swap-order {
+	.dsc-swap-order {
 		flex-direction: column-reverse;
 	}
-	.dsc-dev-row-reverse {
+	.dsc-row-reverse {
 		flex-direction: row-reverse;
 	}
 }
 @media (max-width: 768px) {
-    .dsc-dev-hide-mobile {
+    .dsc-hide-mobile {
         display:none;
     }
 }
